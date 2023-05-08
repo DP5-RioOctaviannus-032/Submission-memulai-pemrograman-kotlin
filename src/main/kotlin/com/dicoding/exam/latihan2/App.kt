@@ -32,7 +32,7 @@ fun calculate(valueA: Int, valueB: Int, valueC: Int?): Int {
  *      Result is ${result}
  */
 fun result(result: Int): String {
-    return "Result is ${result}"
+    return "Result is $result"
 }
 
 fun main() {
