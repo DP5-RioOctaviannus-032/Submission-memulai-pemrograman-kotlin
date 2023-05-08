@@ -37,7 +37,7 @@ fun <T> checkType(args: T): String {
         is Double -> "Yes! it's Double"
         is List<*> -> "Yes! it's List"
         is Map<*,*> -> "Yes! it's Map"
-        else -> ""
+        else -> "Unknown Type"
     }
 }
 
